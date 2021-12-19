@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+
+
+/* Styl carty box__card pro index.html a edit.html*/
+
+.box__card {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(126, 220, 233);
+    box-shadow: 2px 3px 10px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* Formulář */
+
+form {
+    text-align: center;
+}
+
+input[type="text"]{
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(29, 202, 165);
+    color: white;
+    width: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(28, 187, 160);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+input[type="checkbox"]{
+    margin-top: 15px;
+}
+
+/* Tlačítko vypsání */
+
+.to-list {
+    display:block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: rgb(29, 202, 165);
+    margin-top: 10px;
+    width: 100px;
+}
+
+.to-list:hover {
+    background: rgb(28, 187, 160);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+/* sekce vypisvání jmen */
+
+.list-names {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Tlačítko pro vymazání jména */
+
+.list-names button  {
+    border: none;
+    background: rgb(156, 10, 10);
+    font-size: 11px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.list-names button:hover {
+    background: rgb(148, 22, 22);
+    box-shadow: 2px 2px 5px black;
+}
+
+/* přidělování rozlišení věkové skupiny */
+
+.adult {
+    text-decoration: underline;
+    color: green;
+    text-decoration: none;
+}
+
+.no-adult {
+    color: red;
+    text-decoration: none;
+}
+
+/* odkaz zpět na úvodní stranu v dokumentu edit.html */
+.back {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(29, 202, 165);
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 10px;
+
+    
+}
+
